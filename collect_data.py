@@ -35,7 +35,6 @@ class Scraper:
         
         # setting session object python3 main.py
         session = r.session()
-        
 
         agg_stock_bars = session.get(url, headers={'Authorization': '{0} {1}'.format(user, api_key), 'Accept': 'text/csv'})
         
