@@ -1,10 +1,15 @@
 from collect_data import Scraper
+import os
+from dotenv import load_dotenv
 
 class Analyser():
 
     def __init__(self):
         
         self.stocks = ["AAPL", "MSFT", "IBM"]
+        load_dotenv()
+        self.pathway = os.getenv('local_path')
+        
         return
     
     def aapl_data_population(self, timespan, multiplier):
@@ -87,7 +92,7 @@ class Analyser():
         numbers = len(string_array)
         
         # open textfile for writing
-        with open(os.path.join('/Users/nicholasbojor/Desktop/fideres/csv',textfile), 'w') as writefile:
+        with open(os.path.join(self.pathway,textfile), 'w') as writefile:
             write = csv.writer(writefile)
             i = 0
             while i < numbers:
