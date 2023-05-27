@@ -22,7 +22,7 @@ class Scraper:
         Two extra variables passed are firstly tick which refers to stock name, and duration which refers to the allocated duration of data aggregation."""
         
         import requests as r 
-
+ 
         # user and secret initialisation
         user = 'Bearer'
         api_key = self.get_api_key()
