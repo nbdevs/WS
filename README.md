@@ -1,2 +1,2 @@
 # WS
-web-scraping functionality
+Web-scraping functionality
