@@ -1,4 +1,6 @@
 from datetime import datetime
+import os 
+from dotenv import load_dotenv
     
 class Scraper:
     """ Scraper class for pulling data from API endpoint."""
@@ -8,7 +10,8 @@ class Scraper:
         self.AAPL = args[0]
         self.MSFT = args[1]
         self.IBM = args[2]
-        self._api_key = "ZINP07mrRU83gnwFwKvc5q8iVQb0FUM5"
+        load_dotenv()
+        self._api_key = os.getenv('api_key')
         
     def get_api_key(self) -> str:
         """ u87786returns api key which is stored as a private variable from this class for accessor classes"""
