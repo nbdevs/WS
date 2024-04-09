@@ -1,0 +1,91 @@
+home_team,away_team,home_win_odds,both_draw_odds,away_win_odds,match_time
+Newcastle,Tottenham,17/10,29/10,13/10,12:30
+Brentford,Sheffield Utd,2/5,4/1,6/1,15:00
+Burnley,Brighton,11/4,11/4,10/11,15:00
+Manchester City,Luton Town,1/14,10/1,28/1,15:00
+Nottingham Forest,Wolves,6/5,5/2,21/10,15:00
+Bournemouth,Manchester Utd,11/8,14/5,13/8,17:30
+Liverpool,Crystal Palace,2/9,11/2,11/1,14:00
+West Ham,Fulham,13/10,13/5,19/10,14:00
+Arsenal,Aston Villa,1/4,5/1,19/2,16:30
+Chelsea,Everton,8/13,16/5,15/4,20:00
+Luton Town,Brentford,15/8,11/4,5/4,15:00
+Sheffield Utd,Burnley,15/8,13/5,13/10,15:00
+Wolves,Arsenal,7/1,4/1,4/11,19:30
+Everton,Nottingham Forest,17/20,11/4,3/1,13:30
+Aston Villa,Bournemouth,4/5,16/5,14/5,15:00
+Crystal Palace,West Ham,7/5,5/2,9/5,15:00
+Fulham,Liverpool,19/4,18/5,1/2,16:30
+Augsburg,1. FC Union Berlin,21/20,5/2,5/2,19:30
+Bayern Munich,1. FC Köln,1/5,6/1,12/1,14:30
+Borussia Monchengladbach,Dortmund,9/4,3/1,1/1,14:30
+Mainz,1899 Hoffenheim,19/20,14/5,5/2,14:30
+RB Leipzig,Wolfsburg,1/3,17/4,15/2,14:30
+VfL Bochum,1. FC Heidenheim,11/10,13/5,9/4,14:30
+Stuttgart,Eintracht Frankfurt,1/2,7/2,19/4,17:30
+SV Darmstadt 98,SC Freiburg,16/5,14/5,4/5,14:30
+Bayer Leverkusen,Werder Bremen,1/6,13/2,14/1,16:30
+Eintracht Frankfurt,Augsburg,19/20,11/4,5/2,19:30
+1. FC Heidenheim,RB Leipzig,21/4,15/4,4/9,14:30
+1. FC Köln,SV Darmstadt 98,8/15,10/3,19/4,14:30
+1899 Hoffenheim,Borussia Monchengladbach,1/1,3/1,11/5,14:30
+Wolfsburg,VfL Bochum,3/4,29/10,10/3,14:30
+1. FC Union Berlin,Bayern Munich,5/1,15/4,4/9,17:30
+Werder Bremen,Stuttgart,7/2,3/1,7/10,14:30
+Dortmund,Bayer Leverkusen,8/5,14/5,29/20,16:30
+SC Freiburg,Mainz,5/4,11/4,19/10,18:30
+Metz,Lens,7/2,11/4,3/4,20:00
+RC Strasbourg,Stade Reims,13/8,12/5,13/8,16:00
+Rennes,Toulouse,5/6,13/5,16/5,20:00
+Le Havre AC,Nantes,29/20,21/10,2/1,12:00
+Clermont,Montpellier,12/5,13/5,21/20,14:00
+Lyon,Brest,6/5,12/5,9/4,19:45
+Nice,Lorient,1/2,16/5,6/1,20:00
+Nantes,Rennes,2/1,9/4,11/8,16:00
+Lens,Clermont,4/11,18/5,15/2,20:00
+Le Havre AC,Metz,21/20,9/4,14/5,14:00
+Lille,RC Strasbourg,11/20,3/1,5/1,14:00
+Stade Reims,Montpellier,5/6,29/10,29/10,14:00
+Brest,Monaco,8/5,12/5,13/8,16:05
+Toulouse,Marseille,2/1,5/2,5/4,18:00
+Paris St Germain,Lyon,4/11,4/1,7/1,20:00
+Lazio,Salernitana,2/7,9/2,19/2,19:45
+Lecce,Empoli,23/20,11/5,13/5,14:00
+Torino,Juventus,13/5,21/10,6/5,17:00
+Bologna,Monza,11/20,3/1,5/1,19:45
+Napoli,Frosinone,1/3,17/4,15/2,11:30
+Sassuolo,Milan,18/5,16/5,4/6,14:00
+Udinese,Roma,5/2,12/5,11/10,17:00
+Inter,Cagliari,1/6,13/2,14/1,19:45
+Fiorentina,Genoa,5/6,5/2,10/3,17:30
+Atalanta,Verona,4/9,18/5,6/1,19:45
+Genoa,Lazio,9/5,21/10,13/8,17:30
+Cagliari,Juventus,18/5,13/5,3/4,19:45
+Empoli,Napoli,7/2,29/10,8/11,17:00
+Verona,Udinese,6/4,9/4,9/5,19:45
+Sassuolo,Lecce,7/5,12/5,15/8,11:30
+Torino,Frosinone,7/10,11/4,19/5,14:00
+Salernitana,Fiorentina,4/1,3/1,4/6,17:00
+Monza,Atalanta,11/4,11/4,10/11,19:45
+Roma,Bologna,6/5,11/5,12/5,17:30
+Milan,Inter,19/10,5/2,13/10,19:45
+Betis,Celta Vigo,23/20,12/5,23/10,20:00
+Atlético Madrid,Girona,21/20,13/5,12/5,13:00
+Rayo Vallecano,Getafe,6/5,21/10,13/5,15:15
+Real Mallorca,Real Madrid,4/1,13/5,8/11,17:30
+Cádiz,Barcelona,16/5,13/5,5/6,20:00
+Las Palmas,Sevilla,17/10,9/4,13/8,13:00
+Granada,Deportivo Alaves,21/10,11/5,11/8,15:15
+Athletic Club,Villarreal,7/10,29/10,18/5,17:30
+Real Sociedad,Almería,3/10,4/1,9/1,20:00
+Osasuna,Valencia,6/4,2/1,21/10,20:00
+Athletic Club,Granada,1/4,19/4,11/1,20:00
+Celta Vigo,Las Palmas,10/11,5/2,3/1,13:00
+Rayo Vallecano,Osasuna,23/20,21/10,11/4,15:15
+Valencia,Betis,11/8,11/5,21/10,17:30
+Girona,Cádiz,4/11,4/1,7/1,20:00
+Getafe,Real Sociedad,11/4,2/1,6/5,13:00
+Almería,Villarreal,2/1,13/5,6/5,15:15
+Deportivo Alaves,Atlético Madrid,11/4,12/5,1/1,17:30
+Real Madrid,Barcelona,4/5,29/10,3/1,20:00
+Sevilla,Real Mallorca,10/11,23/10,10/3,20:00
