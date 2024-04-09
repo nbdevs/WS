@@ -28,8 +28,7 @@ class Analyser():
         date_to_string = date_to.strftime("%Y-%m-%d")
 
         # calling method for stock data
-        stock_data = scraper.pull_stock_data(
-            AAPL, multiplier, timespan, date_from_string, date_to_string)
+        stock_data = scraper.pull_stock_data(AAPL, multiplier, timespan, date_from_string, date_to_string)
 
         return stock_data
 
