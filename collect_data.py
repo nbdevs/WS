@@ -1,14 +1,14 @@
-from datetime import datetime
-import os
-
 class Scraper:
     """ Scraper class for pulling data from API endpoint."""
 
     def __init__(self, *args):
+        import os
+        from dotenv import load_dotenv
 
         self.AAPL = args[0]
         self.MSFT = args[1]
         self.IBM = args[2]
+        load_dotenv()
         self._api_key = os.getenv('api_key')
 
     def get_api_key(self) -> str:
