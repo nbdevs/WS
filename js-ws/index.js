@@ -1,7 +1,7 @@
 const puppeteer = require('puppeteer');
 const createCsvWriter = require("csv-writer").createObjectCsvWriter;
 
-let leagues = ["Spanish La Liga", "German Bundesliga", "Premier League", "Italian Serie A", "French Ligue 1"];
+var leagues = ["Spanish La Liga", "German Bundesliga", "Premier League", "Italian Serie A", "French Ligue 1"];
 var matchData = [{ 0: [] }, { 1: [] }, { 2: [] }, { 3: [] }, { 4: [] }];
 
 const url = "https://m.skybet.com/football/competitions";
@@ -12,6 +12,17 @@ evalLeagueName = (leagueDict, arrayOfLeagueNames) => { // function for determini
             return arrayOfLeagueNames[j];
         }
     }
+}
+
+recordWriter = async (csvWriter, matchData, leagues) => {
+
+    await csvWriter.writeRecords(matchData)
+    .then(() => {
+        console.log(`Extracting ${leagues} Data...`)
+    })
+    .catch((err) => {
+        console.log("fail", err)
+    });
 }
 
 ServerStart = async () => { // async function to handle uncertainty of time for queries
@@ -163,20 +174,30 @@ ServerStart = async () => { // async function to handle uncertainty of time for 
 
     for (var i = 0; i < matchData.length; i++) {
 
-        await csvWriter.writeRecords(matchData[i])
-            .then(() => {
-                console.log(`Loaded ${leagues[i]}`)
-            })
-            .catch((err) => {
-                console.log("fail", err)
-            });
+        //recursive paths for handling different league data extraction with function calls. 
+        if(i==0){
+            await recordWriter(csvWriter, matchData[i], leagues[2]);
+        }
+        else if (i==1){
+            await recordWriter(csvWriter, matchData[i], leagues[1]);
+        }
+        else if (i==2){
+            await recordWriter(csvWriter, matchData[i], leagues[4]);
+        }
+        else if (i ==3){
+            await recordWriter(csvWriter, matchData[i], leagues[3]);
+        }
+        else if (i ==4){
+            await recordWriter(csvWriter, matchData[i], leagues[0]);
+        }
     }
 
     return matchData;
 }
 
 main = async () => {
-    await ServerStart();
+    const record = await ServerStart();
+    console.log(record);
 }
 
 main();
